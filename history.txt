@@ -1,0 +1,5 @@
+#V2
+Create user:1 set username="justin", password=123456
+Select * from user
+Create user:1 set username="justin", password=123456
+select * from user

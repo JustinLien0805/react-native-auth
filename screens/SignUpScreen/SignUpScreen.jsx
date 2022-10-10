@@ -8,6 +8,9 @@ import {
 import { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { AntDesign } from "@expo/vector-icons";
+import axios from "axios";
+
+
 
 const SignUpScreen = () => {
   const navigation = useNavigation();
@@ -15,8 +18,8 @@ const SignUpScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const signUp = () => {
-    navigation.navigate("Home");
+  const signUp = async () => {
+
   };
   const signInWithFacebook = () => {};
   const signInWithGoogle = () => {};

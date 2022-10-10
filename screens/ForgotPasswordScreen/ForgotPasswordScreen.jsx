@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
-import { AntDesign } from "@expo/vector-icons";
+
 
 const ForgotPasswordScreen = () => {
   const navigation = useNavigation();
